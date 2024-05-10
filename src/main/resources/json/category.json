@@ -1,0 +1,11 @@
+{
+  "type": "object",
+  "properties": {
+    "id_category": {
+      "type": "integer"
+    },
+    "name_category": {
+      "type": "string"
+    }
+  }
+}

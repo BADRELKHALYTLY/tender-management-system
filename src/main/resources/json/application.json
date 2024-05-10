@@ -1,0 +1,18 @@
+{
+  "type": "object",
+  "properties": {
+    "price": {
+      "type": "integer"
+    },
+    "delay": {
+        "type": "string",
+        "format": "date-time"
+    },
+    "product": {
+      "$ref": "product.json"
+    },
+    "tender": {
+      "$ref": "tender.json"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "object",
+  "properties": {
+    "id_tender": {
+      "type": "integer"
+    },
+    "date_tender": {
+      "type": "string"
+    },
+    "price_product": {
+      "type": "number"
+    },
+    "category": {
+      "$ref": "category.json"
+    },
+    "product": {
+          "type": "array",
+          "items": {
+              "$ref": "product.json"
+          }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "object",
+  "properties": {
+    "id_supplier": {
+      "type": "integer"
+    },
+    "name_supplier": {
+      "type": "string"
+    },
+    "adress_supplier": {
+      "type": "string"
+    }
+  }
+}

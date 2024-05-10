@@ -1,0 +1,20 @@
+{
+  "type": "object",
+  "properties": {
+    "id_product": {
+      "type": "integer"
+    },
+    "name_product": {
+      "type": "string"
+    },
+    "price_product": {
+      "type": "number"
+    },
+    "supplier": {
+      "$ref": "supplier.json"
+    },
+    "category": {
+      "$ref": "category.json"
+    }
+  }
+}
